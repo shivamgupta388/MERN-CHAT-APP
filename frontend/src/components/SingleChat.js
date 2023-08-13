@@ -10,7 +10,7 @@ import ScrollableChat from './ScrollableChat';
 import './styles.css'
 import io from "socket.io-client";
 
-const ENDPOINT = 'http://localhost:5000';
+const ENDPOINT = '';
 var socket , selectedChatCompare;
 
 export default function SingleChat({fetchAgain, setFetchAgain}) {
